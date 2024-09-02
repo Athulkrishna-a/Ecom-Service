@@ -15,13 +15,13 @@ This repository contains the backend code for an e-commerce platform built with 
 
 To run this project locally, follow these steps:
 
-### 1. Clone the Repository
+#### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/ecommerce-backend.git
 cd ecommerce-backend
 ```
-###2. Configure the Database
+#### 2. Configure the Database
 Ensure that MySQL is installed and running on your system. Create a database named ecommerce.
 
 Update the application.properties file with your database credentials:
@@ -32,13 +32,13 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 ```
-###3. Build the Project
+#### 3. Build the Project
 Use Maven to build the project:
 
 ```bash
 mvn clean install
 ```
-###4. Run the Application
+#### 4. Run the Application
 
 Start the application using:
 ```bash
